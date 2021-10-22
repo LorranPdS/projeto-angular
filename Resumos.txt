@@ -1,0 +1,23 @@
+Aula 3 Hello World! Criando primeiro projeto e o primeiro componente
+
+-tempo: 2:20
+para criar o projeto, use o seguinte comando: ng new nome-do-projeto e o angular/cli vai criar toda a estrutura padrão do projeto e instalar todos os pacotes do npm que são necessários (pelo que entendi estarão no pacote node_modules)
+
+No package.json temos todas as bibliotecas que estão sendo utilizadas
+
+- tempo: 4:20
+Dentro do diretório src é onde iremos trabalhar e criar todos os nossos componentes
+
+Para rodar o projeto, use a linha de comando para colocar "cd projeto-angular" para você entrar no projeto e rodarmos ele no navegador. 
+Depois que você entrou no seu projeto Angular, dê o comando ng serve (ou ng serve --open pra abrir automaticamente)
+
+- tempo: 7:20
+Foi criado um componente manualmente antes só para vermos como funciona, mas depois aprenderemos a fazer essa criação automaticamente
+
+Para interromper a compilação, use a tecla de atalho "Ctrl + C"
+
+- tempo: 18:00
+Para gerar um componente automaticamente, use o comando abaixo:
+ng g component meu-primeiro2
+
+Obs.: o comando acima também pode ser 'ng g c nome-do-componente'
